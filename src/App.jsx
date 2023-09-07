@@ -1,14 +1,13 @@
-import { useState } from 'react'
 import './App.css'
+import Cabecalho from './components/cabecalho'
 
-function App() {
-  const [count, setCount] = useState(0)
+export default function App(){
+
 
   return (
     <>
-        
+        <Cabecalho/>
     </>
   )
 }
 
-export default App
