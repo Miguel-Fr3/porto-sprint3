@@ -6,24 +6,31 @@ export default function Home (){
         <main>
         <section>
         <div className="superior">
+            <div>
+        <h1>Guincho 24 horas</h1>
         <p>
-            <h1>Guincho 24 horas</h1>
-            
-                Guinchos ilimitados, sem limite de quilometragem. <br />
-                Reparos do carro
-                Reparo rápido e Supermartelinho de Ouro.</p>
-            <img src={img3} alt="Desenho de Guincho" className='imgC'/>
+            Guinchos ilimitados, sem limite de quilometragem. <br />
+            Reparos do carro
+            Reparo rápido e Supermartelinho de Ouro.
+        </p>
+
+        </div>
+        <img src={img3} alt="Desenho de Guincho" className='imgC'/>
         </div>
         </section>
         <section>
         <div className="inferior">
+        <div>
+        <h1>Reparos do carro</h1>
         <p>
-            <h1>Reparos do carro</h1>
-            Reparo rápido e Supermartelinho de Ouro.</p>
+            Reparo rápido e Supermartelinho de Ouro.
+        </p>
+        </div>
             <img src={img8} alt="Homens consertando carro" className='imgC'/>
         </div>
         </section>
         <Rodape/>
         </main>
+
     )
 }

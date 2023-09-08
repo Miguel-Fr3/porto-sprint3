@@ -30,7 +30,7 @@ const router = createBrowserRouter([
         element: <Login/>
       },
       {
-        path: "/cadstro",
+        path: "/cadastro",
         element: <Cadastro/>
       },
       {
