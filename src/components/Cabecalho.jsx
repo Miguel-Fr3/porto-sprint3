@@ -6,7 +6,7 @@ export default function Cabecalho() {
         <>
         <header>
             <div>
-                <img src={logo} alt="Logo da porto" />
+                <img src={logo} alt="Logo da porto" className='logo'/>
             </div>
             <nav>
             <h1>Ajuda</h1>
