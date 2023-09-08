@@ -221,17 +221,35 @@ form.formulario{
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
+    
   }
   .ajuda .superior div{
     border-radius: 5px;
     border: 2px solid #000000;
+    padding-top: 10px;
+    width: 300px;
+    height: 250px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+  }
+  .icona{
+    text-align: center;
+    margin: auto;
+    font-size: 4rem;
+    margin-left: 40%;
   }
   .ajuda .inferior div{
     border-radius: 5px;
     border: 2px solid #000000;
+    border: 2px solid #000000;
+    padding-top: 10px;
+    width: 300px;
+    height: 250px;
+    
   }
     .ajuda .inferior{
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
+    
 }
