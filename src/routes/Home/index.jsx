@@ -7,7 +7,7 @@ import Cabecalho from '../../components/Cabecalho';
 export default function Home() {
   return (
     <main className="home-page"> 
-      <Cabecalho />
+      <Cabecalho/>
       <section>
         <div className="superior">
           <div>
@@ -29,7 +29,7 @@ export default function Home() {
           <img src={img8} alt="Homens consertando carro" className="imgC" />
         </div>
       </section>
-      <Rodape />
+      <Rodape/>
     </main>
   );
 }

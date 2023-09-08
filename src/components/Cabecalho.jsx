@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom'; // Importe o Link
+import { Link } from 'react-router-dom';
 
 import { faSearch, faUserCircle } from '@fortawesome/free-solid-svg-icons';
 import logo from '../assets/Logo.png';
