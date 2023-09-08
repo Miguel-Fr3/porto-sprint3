@@ -16,7 +16,7 @@ nav{
     flex-direction: row;
 
     }
-h1{
+header h1{
     margin-right: 10rem;
     font-size: 2rem;
     }
@@ -40,8 +40,9 @@ header div{
     margin-left: 1rem;
 }
 section{
-    margin-top: 2rem;
+    margin-top: 3rem;
 }
+
 section div.superior{
     display: flex;
     justify-content: center;
@@ -49,15 +50,30 @@ section div.superior{
     align-items: center;
 }
 section div.inferior{
+
     display: flex;
     justify-content: center;
     flex-direction: row;
     align-items: center;
     
 }
+h1{
+    text-align: center;
+    font-size: 2.5rem;
+}
+p{
+    text-align: center;
+    font-size: 2rem;
+}
 .imgC{
     width: 25rem;
     height: 15rem;
     border: 0.824709px solid #000000;
     background-color: #506CFE;
+}
+.superior img{
+    margin-right: 100px;
+}
+.inferior img{
+    margin-left: 100px;
 }
