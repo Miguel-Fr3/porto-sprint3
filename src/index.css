@@ -6,6 +6,21 @@
     text-decoration: none;
     color: black;
 }
-body{
-    background-color: #BEC5FF;
+.erro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #000;
+    width: 100%;
+    height: 100vh;
+}
+.erro h1{
+    color: white;
+}
+.erro p{
+    color: white;
+}
+body .login{
+    background-color: #BEC5FF;;
 }
