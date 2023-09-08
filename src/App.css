@@ -131,3 +131,8 @@ form.formulario{
     font-weight: bold;
     width: 100%;
 }
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
