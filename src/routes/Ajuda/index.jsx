@@ -1,7 +1,7 @@
 import CabecalhoA from "../../components/CabecalhoA"
 export default function Ajuda (){
     return(
-        <main className="Ajuda">
+        <main className="ajuda">
             <CabecalhoA/>
             <h1>Ajuda</h1>
         </main>
