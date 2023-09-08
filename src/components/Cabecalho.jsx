@@ -1,4 +1,6 @@
+import { faSearch, faUserCircle } from '@fortawesome/free-solid-svg-icons';
 import logo from '../assets/Logo.png'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 export default function Cabecalho() {
     return(
         <>
@@ -6,15 +8,14 @@ export default function Cabecalho() {
             <div>
                 <img src={logo} alt="Logo da porto" />
             </div>
-            <div>
             <nav>
             <h1>Ajuda</h1>
             <h1>Modals</h1>
             <h1>Sobre nós</h1>
             </nav>
-            </div>
-            <div>
-
+            <div className='icon'>
+                <FontAwesomeIcon icon={faSearch} />
+                <FontAwesomeIcon icon={faUserCircle} />
             </div>
             </header>
         </>
