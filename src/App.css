@@ -118,6 +118,7 @@ form.formulario{
     background-color: #fbfbfb;
     margin-top: 20px;
     margin-bottom: 20px;
+    font-size: 1.5rem;
   }
 .formulario .register input{
     background-color: #009EE2;
@@ -185,4 +186,34 @@ form.formulario{
     height: 25px;
     margin-right: 10px;
     margin-bottom: 25px;
+  }
+  .help{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+  }
+  .ajuda label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    color: #00A1FC;
+    font-weight: bolder;
+    font-size: 1.5rem;
+
+  }
+  .ajuda input{
+    width: 80%;
+    padding: 8px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: #fbfbfb;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5rem;
+    text-align: center;
+    font-size: 1.5rem;
   }
