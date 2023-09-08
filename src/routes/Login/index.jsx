@@ -13,7 +13,7 @@ export default function Login (){
                 <label htmlFor="Cpf">Preencha seus dados de acesso para continuar.</label>
                 <input type="text" placeholder="CPF ou CNPJ"/>
                 <div className="register">
-                    <input type="submit" value="Enviar"/>
+                    <input type="submit" value="Entrar"/>
                 </div>
                 <div className="check">
                 <input type="checkbox" />
