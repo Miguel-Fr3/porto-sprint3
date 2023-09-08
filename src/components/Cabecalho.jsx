@@ -10,16 +10,16 @@ export default function Cabecalho() {
                 <img src={logo} alt="Logo da porto" className='logo'/>
             </div>
             <nav>
-                <Link to='/ajuda' />Ajuda<Link/>
-                <span>|</span>
-                <Link to='/modals' />Modals<Link/>
-                <span>|</span>
-                <Link to='/sobre' />Sobre nós<Link/>
-                <span>|</span>
+                <Link to='/ajuda' className='links'/>Ajuda<Link/>
+
+                <Link to='/modals' className='links'/>Modals<Link/>
+
+                <Link to='/sobre' className='links'/>Sobre nós<Link/>
+
             </nav>
             <div className='icon'>
-                <FontAwesomeIcon icon={faSearch} className='lupa' />
-                <FontAwesomeIcon icon={faUserCircle} className='usuario'/>
+            <Link to='/ajuda'><FontAwesomeIcon icon={faSearch} className='lupa' /></Link>
+                <Link to='/login'><FontAwesomeIcon icon={faUserCircle} className='usuario'/></Link>
             </div>
             </header>
         </>

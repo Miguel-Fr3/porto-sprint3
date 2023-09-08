@@ -1,5 +1,6 @@
 import img3 from '../../assets/img3.png'
 import img8 from '../../assets/img8.png'
+import Rodape from '../../components/Rodape'
 export default function Home (){
     return(
         <main>
@@ -22,6 +23,7 @@ export default function Home (){
             <img src={img8} alt="Homens consertando carro" className='imgC'/>
         </div>
         </section>
+        <Rodape/>
         </main>
     )
 }
