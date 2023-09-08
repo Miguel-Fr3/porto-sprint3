@@ -14,8 +14,8 @@ export default function Cabecalho() {
             <h1>Sobre nós</h1>
             </nav>
             <div className='icon'>
-                <FontAwesomeIcon icon={faSearch} />
-                <FontAwesomeIcon icon={faUserCircle} />
+                <FontAwesomeIcon icon={faSearch} className='lupa' />
+                <FontAwesomeIcon icon={faUserCircle} className='usuario'/>
             </div>
             </header>
         </>

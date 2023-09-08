@@ -25,7 +25,7 @@ nav{
 
     }
 h1{
-    margin-left: 10rem;
+    margin-right: 10rem;
     font-size: 2rem;
     }
 img{
@@ -39,7 +39,11 @@ div{
 }
 
 .icon{
-
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     font-size: 3rem;
-
+}
+.usuario{
+    margin-left: 1rem;
 }
