@@ -11,7 +11,7 @@ export default function Conteudo (){
                 Guinchos ilimitados, sem limite de quilometragem. <br />
                 Reparos do carro
                 Reparo rápido e Supermartelinho de Ouro.</p>
-            <img src={img3} alt="" className='imgC'/>
+            <img src={img3} alt="Desenho de Guincho" className='imgC'/>
         </div>
         </section>
         <section>
@@ -19,7 +19,7 @@ export default function Conteudo (){
         <p>
             <h1>Reparos do carro</h1>
             Reparo rápido e Supermartelinho de Ouro.</p>
-            <img src={img8} alt="" className='imgC'/>
+            <img src={img8} alt="Homens consertando carro" className='imgC'/>
         </div>
         </section>
         </>

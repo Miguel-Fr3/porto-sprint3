@@ -1,6 +1,7 @@
 import './App.css'
 import Cabecalho from './components/Cabecalho'
 import Conteudo from './components/Conteudo'
+import Rodape from './components/Rodape'
 export default function App(){
 
 
@@ -8,6 +9,7 @@ export default function App(){
     <>
         <Cabecalho/>
         <Conteudo/>
+        <Rodape/>
     </>
   )
 }
