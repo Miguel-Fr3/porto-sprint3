@@ -14,7 +14,8 @@ nav{
     justify-content: space-around;
     align-items: center;
     flex-direction: row;
-    font-size: 2rem;
+    font-size: 1.7rem;
+    font-weight: bolder;
     }
 a{
     margin-right: 10rem;
