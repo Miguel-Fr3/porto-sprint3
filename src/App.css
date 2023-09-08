@@ -117,8 +117,9 @@ form.formulario{
     border: 2px solid #ccc;
     border-radius: 5px;
     box-sizing: border-box;
-    margin-bottom: 15px;
     background-color: #fbfbfb;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 .formulario .register input{
     background-color: #009EE2;
@@ -129,6 +130,7 @@ form.formulario{
     cursor: pointer;
     font-weight: bold;
     width: 100%;
+    margin-bottom: 20px;
 }
 .form{
     display: flex;
@@ -160,6 +162,7 @@ form.formulario{
   .check{
     display: flex;
     justify-content: flex-start;
+    flex-direction: row;
     align-items: center;
   }
   .check input{
@@ -169,9 +172,19 @@ form.formulario{
     box-sizing: border-box;
     background-color: #fbfbfb;
   }
+  .check label{
+    text-align: center;font-size: 1.8rem;
+    font-weight: bold;
+  }
   .form a{
     color: #009EE2;
     font-size: 1rem;
     font-weight: bolder;
     text-align: center;
+  }
+  #check{
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    margin-bottom: 25px;
   }
