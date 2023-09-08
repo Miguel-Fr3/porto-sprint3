@@ -1,3 +1,4 @@
+
 header{
     display: flex;
     align-items: center;
@@ -38,14 +39,25 @@ header div{
 .usuario{
     margin-left: 1rem;
 }
-section div{
+section{
+    margin-top: 2rem;
+}
+section div.superior{
     display: flex;
     justify-content: center;
     flex-direction: row-reverse;
     align-items: center;
 }
+section div.inferior{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    
+}
 .imgC{
     width: 25rem;
     height: 15rem;
     border: 0.824709px solid #000000;
+    background-color: #506CFE;
 }
