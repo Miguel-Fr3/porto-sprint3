@@ -106,10 +106,10 @@ form.formulario{
     display: flex;
     justify-content: center;
     align-items: center;
-
     margin-bottom: 10px;
     color: #000;
-    font-weight: bold;
+    font-weight: bolder;
+    font-size: 1.5rem;
 }
 .formulario input {
     width: 100%;
@@ -136,6 +136,10 @@ form.formulario{
     justify-content: center;
     width: 100%;
     height: 88.5vh;
+}
+::placeholder{
+    font-size: large;
+    font-weight: bolder;
 }
 .form h1 {
     display: flex;

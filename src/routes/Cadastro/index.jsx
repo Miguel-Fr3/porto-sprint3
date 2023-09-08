@@ -11,7 +11,7 @@ export default function Cadastro (){
             <Link to="/login"><FontAwesomeIcon icon={faArrowLeft} className='flecha' /></Link>
                 <h1>Cadastrar Conta</h1>
                 <label htmlFor="Cpf">Preencha seus dados de acesso para continuar.</label>
-                <input type="text" placeholder="CPF ou CNPJ"/>
+                <input type="text" id="Cpf" placeholder="CPF ou CNPJ"/>
                 <div className="register">
                     <input type="submit" value="Cadastrar"/>
                 </div>
