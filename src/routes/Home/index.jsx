@@ -1,9 +1,11 @@
 import img3 from '../../assets/img3.png'
 import img8 from '../../assets/img8.png'
 import Rodape from '../../components/Rodape'
+import Cabecalho from '../../components/Cabecalho'
 export default function Home (){
     return(
         <main>
+        <Cabecalho/>
         <section>
         <div className="superior">
             <div>
