@@ -1,0 +1,79 @@
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 107px;
+    top: 0px;
+    background: #FBFBFB;
+    border: 0.824709px solid #000000;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+
+    }
+header h1{
+    margin-right: 10rem;
+    font-size: 2rem;
+    }
+img.logo{
+    width: 200px;
+    filter: drop-shadow(0px 2.70854px 2.70854px rgba(0, 0, 0, 0.25));
+    }
+header div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 3rem;
+}
+.usuario{
+    margin-left: 1rem;
+}
+section{
+    margin-top: 3rem;
+}
+
+section div.superior{
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+section div.inferior{
+
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    
+}
+h1{
+    text-align: center;
+    font-size: 2.5rem;
+}
+p{
+    text-align: center;
+    font-size: 2rem;
+}
+.imgC{
+    width: 25rem;
+    height: 15rem;
+    border: 0.824709px solid #000000;
+    background-color: #506CFE;
+}
+.superior img{
+    margin-right: 100px;
+}
+.inferior img{
+    margin-left: 100px;
+}

@@ -1,14 +1,14 @@
-import { useState } from 'react'
 import './App.css'
+import Cabecalho from './components/Cabecalho'
+import Conteudo from './components/Conteudo'
+export default function App(){
 
-function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-        
+        <Cabecalho/>
+        <Conteudo/>
     </>
   )
 }
 
-export default App
