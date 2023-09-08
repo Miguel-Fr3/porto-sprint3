@@ -1,4 +1,4 @@
-import rodape from '../assets/img8.png'
+import rodape from '../assets/logo.png'
 export default function Rodape (){
     return(
         <>
