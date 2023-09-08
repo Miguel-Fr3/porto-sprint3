@@ -1,11 +1,14 @@
-import { useState } from 'react'
+import { Outlet } from 'react-router-dom'
 import './App.css'
+import Cabecalho from './components/Cabecalho'
 
-function App() {
-  const [count, setCount] = useState(0)
+ function App(){
+
 
   return (
     <>
+        <Cabecalho/>
+        <Outlet/>
         
     </>
   )
