@@ -14,12 +14,12 @@ nav{
     justify-content: space-around;
     align-items: center;
     flex-direction: row;
-
-    }
-header Link{
-    margin-right: 10rem;
     font-size: 2rem;
     }
+a{
+    margin-right: 10rem;
+    }
+
 img.logo{
     width: 200px;
     filter: drop-shadow(0px 2.70854px 2.70854px rgba(0, 0, 0, 0.25));
@@ -67,7 +67,7 @@ p{
     font-size: 2rem;
 }
 .imgC{
-    width: 25rem;
+    width: 30rem;
     height: 15rem;
     border: 0.824709px solid #000000;
     background-color: #506CFE;
