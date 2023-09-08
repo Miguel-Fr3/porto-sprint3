@@ -217,3 +217,21 @@ form.formulario{
     text-align: center;
     font-size: 1.5rem;
   }
+  .ajuda .superior{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+  .ajuda .superior div{
+    border-radius: 5px;
+    border: 2px solid #000000;
+  }
+  .ajuda .inferior div{
+    border-radius: 5px;
+    border: 2px solid #000000;
+  }
+    .ajuda .inferior{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
