@@ -8,6 +8,7 @@ export default function Sobre (){
                 <h1 className="proposito">Nosso propósito é</h1>
                 <h1 className="porto">Ser um porto seguro para as pessoas</h1>
             </div>
+            <div className="inferior">
             <div className="colab">
                 <h1>Colaboradores</h1>
                 <h2>rm99977 - Alberto Seiji
@@ -22,6 +23,15 @@ export default function Sobre (){
                 </div>
                 <div className="historia">
                     <img src={img0} alt="Fachada porto " />
+                    <h1>Conheça nossa história</h1>
+                    <h2>
+                    Em 1945, a Porto é fundada, em São Paulo/SP, contando com cerca de 50 funcionários.
+                    </h2>
+
+                <div>
+                    <button>Conheça mais</button>
+                </div>
+                </div>
                 </div>
         </main>
     )
