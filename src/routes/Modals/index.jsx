@@ -12,7 +12,7 @@ export default function Modals (){
             <CabecalhoM/>
             <section className="conteudo">
                 <div className="modals">
-                    <img src="" alt="" />
+                    <img src={img5} alt="" />
                     <h1>Guincho Leve</h1>
                     <p>
                         Utilizado para veículos de pequeno porte, como carros de passeio e motocicletas, em casos de pane mecânica, elétrica, pneu furado, entre outros.
