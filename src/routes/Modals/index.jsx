@@ -1,4 +1,11 @@
 import CabecalhoM from "../../components/CabecalhoM"
+import img5 from "../../assets/img5.png"
+import img4 from "../../assets/img4.png"
+import img6 from "../../assets/img6.png"
+import img10 from "../../assets/img10.png"
+import img1 from "../../assets/img1.png"
+import img9 from "../../assets/img9.png"
+import img2 from "../../assets/img2.png"
 export default function Modals (){
     return(
         <main className="modal">
