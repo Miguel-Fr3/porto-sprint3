@@ -3,7 +3,7 @@ export default function Modals (){
     return(
         <main className="modal">
             <CabecalhoM/>
-            <h1>Modals</h1>
+            <section className="conteudo"></section>
         </main>
     )
 }
