@@ -207,7 +207,7 @@
  
  /* desktop */
 
- @media (max-width:1399px){
+ @media (min-width: 901px) and (max-width:1399px){
   body .login{
     background-color: #BEC5FF;
     width: 100%;

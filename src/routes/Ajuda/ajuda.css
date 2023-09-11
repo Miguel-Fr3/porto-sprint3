@@ -76,7 +76,7 @@
 }
    }
      /* tablet */
- @media (max-width:900px){
+  @media (min-width: 600px) and (max-width:900px){
    /* ajuda */
    body .ajuda{
     background-color: #EBF2EC;
@@ -155,7 +155,7 @@
  
  /* desktop */
 
- @media (max-width:1399px){
+ @media (min-width: 901px) and (max-width:1399px){
   
   body .ajuda{
     background-color: #EBF2EC;

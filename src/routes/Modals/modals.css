@@ -3,11 +3,17 @@
   @media (max-width:599px){
   
 
-body .modal{
-  background-color: #79A3C9;
-  width: 100%;
-  height: 192vw;
-}
+    .modal {
+      position: fixed;
+      top: 0;
+      left: 0;
+      background-color: #79A3C9;
+      width: 100%;
+      height: 100vh; 
+      z-index: 999; 
+      overflow: auto; 
+
+    }
 
 
 .modal section{
@@ -23,20 +29,26 @@ body .modal{
   margin-bottom: 50px;
 }
 .modal section div img{
-  width: 600px;
-  height: 300px;
+  max-width: 400px;
+  height: 150px;
   margin-bottom: 30px;
   
 }
   }
     /* tablet */
     @media (min-width: 600px) and (max-width:900px){
-  /* pag modals */
-body .modal{
-  background-color: #79A3C9;
-  width: 100%;
-  height: 192vw;
-}
+ 
+      .modal {
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: #79A3C9;
+        width: 100%;
+        height: 100vh; 
+        z-index: 999; 
+        overflow: auto; 
+  
+      }
 
 
 .modal section{
@@ -62,11 +74,17 @@ body .modal{
  
      /* desktop */
 
-     @media (max-width:1399px){
-      body .modal{
+     @media (min-width: 901px) and (max-width:1399px){
+      .modal {
+        position: fixed;
+        top: 0;
+        left: 0;
         background-color: #79A3C9;
         width: 100%;
-        height: 192vw;
+        height: 100vh; 
+        z-index: 999; 
+        overflow: auto; 
+  
       }
       
       
@@ -93,12 +111,17 @@ body .modal{
  /* large desktop */
 
     
-  body .modal{
+ .modal {
+  position: fixed;
+  top: 0;
+  left: 0;
   background-color: #79A3C9;
   width: 100%;
-  height: 192vw;
-}
+  height: 100vh; 
+  z-index: 999; 
+  overflow: auto; 
 
+}
 
 .modal section{
   display: flex;

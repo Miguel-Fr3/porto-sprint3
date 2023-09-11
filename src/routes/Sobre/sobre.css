@@ -155,7 +155,7 @@ margin-right: 90px;
  
  /* desktop */
 
- @media (max-width:1399px){
+ @media (min-width: 901px) and (max-width:1399px){
   
   body .sobre{
     background-color: #87F5E8;

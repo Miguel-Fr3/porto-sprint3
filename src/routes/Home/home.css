@@ -1,3 +1,4 @@
+@media (min-width: 1400px) {
 body .home-page{
   background-color: #BEC5FF;
   width: 100%;
@@ -45,7 +46,7 @@ font-size: 2rem;
     .inferior img{
       margin-left: 100px;
     }
-
+  }
   /* mobile */
   @media (max-width:599px){
     .home-page section div{
@@ -75,23 +76,10 @@ font-size: 2rem;
    body .home-page{
     background-color: #BEC5FF;
     width: 100%;
-    height: 100vh;
+    height: 100%;
   }
   
-   section div.superior{
-    display: flex;
-    justify-content: center;
-    flex-direction: row-reverse;
-    align-items: center;
-  }
-  section div.inferior{
-  
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    align-items: center;
-    
-  }
+
   
   .imgC{
     width: 30rem;
@@ -108,7 +96,7 @@ font-size: 2rem;
   
    }
     /* tablet */
-    @media (min-width: 600px) and (max-width:900px){
+@media (min-width: 600px) and (max-width:900px){
   .home-page section div{
     display: flex;
     flex-direction: column;
@@ -136,23 +124,10 @@ p{
  body .home-page{
   background-color: #BEC5FF;
   width: 100%;
-  height: 100vh;
+  height: 100%;
 }
 
- section div.superior{
-  display: flex;
-  justify-content: center;
-  flex-direction: row-reverse;
-  align-items: center;
-}
-section div.inferior{
 
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  align-items: center;
-  
-}
 
 .imgC{
   width: 30rem;
@@ -171,7 +146,7 @@ section div.inferior{
 
  /* desktop */
 
- @media (max-width:1399px){
+ @media (min-width: 901px) and (max-width:1399px){
   body .home-page{
     background-color: #BEC5FF;
     width: 100%;
