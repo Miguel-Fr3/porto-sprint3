@@ -5,7 +5,7 @@ import { faSearch, faUserCircle } from '@fortawesome/free-solid-svg-icons';
 import logo from '../assets/Logo.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-export default function Cabecalho() {
+export default function CabecalhoM() {
   return (
     <header>
       <div>
@@ -13,7 +13,7 @@ export default function Cabecalho() {
       </div>
       <nav>
         <Link to='/ajuda' className='links'>Ajuda</Link>
-        <Link to='/modals' className='links'>Modals</Link>
+        <Link to='/' className='links'>Home</Link>
         <Link to='/sobre' className='links'>Sobre nós</Link>
       </nav>
       <div className='icon'>
