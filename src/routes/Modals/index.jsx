@@ -1,3 +1,4 @@
+import "./modals.css"
 import CabecalhoM from "../../components/CabecalhoM"
 import img5 from "../../assets/img5.png"
 import img4 from "../../assets/img4.png"

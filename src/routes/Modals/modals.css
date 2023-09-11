@@ -1,0 +1,144 @@
+  /* large desktop */
+
+    
+ .modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #79A3C9;
+  width: 100%;
+  height: 100vh; 
+  z-index: 999; 
+  overflow: auto; 
+
+}
+
+.modal section{
+  display: flex;
+  flex-direction: column;
+
+}
+.modal section div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.modal section div img{
+  width: 600px;
+  height: 300px;
+  margin-bottom: 30px;
+  
+}
+
+  /* mobile */
+  @media (max-width:599px){
+  
+
+    .modal {
+      position: fixed;
+      top: 0;
+      left: 0;
+      background-color: #79A3C9;
+      width: 100%;
+      height: 100vh; 
+      z-index: 999; 
+      overflow: auto; 
+
+    }
+
+
+.modal section{
+  display: flex;
+  flex-direction: column;
+
+}
+.modal section div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.modal section div img{
+  max-width: 400px;
+  height: 150px;
+  margin-bottom: 30px;
+  
+}
+  }
+    /* tablet */
+    @media (min-width: 600px) and (max-width:900px){
+ 
+      .modal {
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: #79A3C9;
+        width: 100%;
+        height: 100vh; 
+        z-index: 999; 
+        overflow: auto; 
+  
+      }
+
+
+.modal section{
+  display: flex;
+  flex-direction: column;
+
+}
+.modal section div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.modal section div img{
+  width: 600px;
+  height: 300px;
+  margin-bottom: 30px;
+  
+}
+ }
+
+ 
+     /* desktop */
+
+     @media (min-width: 901px) and (max-width:1399px){
+      .modal {
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: #79A3C9;
+        width: 100%;
+        height: 100vh; 
+        z-index: 999; 
+        overflow: auto; 
+  
+      }
+      
+      
+      .modal section{
+        display: flex;
+        flex-direction: column;
+      
+      }
+      .modal section div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 50px;
+      }
+      .modal section div img{
+        width: 600px;
+        height: 300px;
+        margin-bottom: 30px;
+        
+      }
+      }
+    
+ 

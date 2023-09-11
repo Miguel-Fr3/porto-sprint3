@@ -1,3 +1,4 @@
+import "./home.css"
 import React from 'react';
 import img3 from '../../assets/img3.png';
 import img8 from '../../assets/img8.png';
@@ -19,8 +20,7 @@ export default function Home() {
           </div>
           <img src={img3} alt="Desenho de Guincho" className="imgC" />
         </div>
-      </section>
-      <section>
+
         <div className="inferior">
           <div>
             <h1>Reparos do carro</h1>

@@ -1,3 +1,4 @@
+import "./formulario.css"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import CabecalhoD from "../../components/CabecalhoD";
 import { faArrowLeft } from '@fortawesome/free-solid-svg-icons';
