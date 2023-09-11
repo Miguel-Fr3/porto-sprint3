@@ -1,0 +1,327 @@
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 107px;
+    top: 0px;
+    background: #FBFBFB;
+    border: 0.824709px solid #000000;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    font-size: 2rem;
+    font-weight: bolder;
+    }
+a{
+    margin-right: 10rem;
+    }
+
+img.logo{
+    width: 200px;
+    filter: drop-shadow(0px 2.70854px 2.70854px rgba(0, 0, 0, 0.25));
+    }
+header div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 3rem;
+}
+.usuario{
+    margin-left: 1rem;
+}
+section{
+    margin-top: 3rem;
+    margin-bottom: 4.48rem;
+}
+
+section div.superior{
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+section div.inferior{
+
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    
+}
+h1{
+    text-align: center;
+    font-size: 2.5rem;
+}
+p{
+    text-align: center;
+    font-size: 2rem;
+}
+.imgC{
+    width: 30rem;
+    height: 15rem;
+    border: 2px solid #000000;
+    background-color: #506CFE;
+}
+.superior img{
+    margin-right: 100px;
+}
+.inferior img{
+    margin-left: 100px;
+}
+footer{
+    padding-bottom: 5px;
+    background: #000000;
+}
+footer{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+footer img{
+    width: 20rem;
+}
+form.formulario{
+    min-width: 600px;
+    min-height: 400px;
+    margin: auto;
+    padding: 15px;
+    background-color: #FBFBFB;
+    border-radius: 5px;
+    box-shadow: 0 2px 6px #000
+}
+.formulario label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    color: #000;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+.formulario input {
+    width: 100%;
+    padding: 8px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: #fbfbfb;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+  }
+.formulario .register input{
+    background-color: #009EE2;
+    color: #fbfbfb;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 88.5vh;
+}
+::placeholder{
+    font-size: large;
+    font-weight: bolder;
+}
+.form h1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #030303;
+    font-weight: bold;
+    margin-bottom: 25px;
+    font-size: 2.5rem;
+  }
+  .flecha{
+    font-size: 2rem;
+
+  }
+  .flecha path{
+    color: #009EE2;
+  }
+  .check{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: center;
+  }
+  .check input{
+    width: 20px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: #fbfbfb;
+  }
+  .check label{
+    text-align: center;font-size: 1.8rem;
+    font-weight: bold;
+  }
+  .form a{
+    color: #009EE2;
+    font-size: 1rem;
+    font-weight: bolder;
+    text-align: center;
+  }
+  #check{
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    margin-bottom: 25px;
+  }
+  .help{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+  }
+  .ajuda label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    color: #00A1FC;
+    font-weight: bolder;
+    font-size: 1.5rem;
+
+  }
+  .ajuda input{
+    width: 80%;
+    padding: 8px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: #fbfbfb;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5rem;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  .ajuda .superior{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    
+  }
+  .ajuda .superior div{
+    border-radius: 5px;
+    border: 2px solid #000000;
+    padding-top: 10px;
+    width: 300px;
+    height: 250px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+  }
+  .icona{
+    text-align: center;
+    margin: auto;
+    font-size: 4rem;
+    margin-left: 40%;
+  }
+  .ajuda .inferior div{
+    border-radius: 5px;
+    border: 2px solid #000000;
+    border: 2px solid #000000;
+    padding-top: 10px;
+    width: 300px;
+    height: 250px;
+    
+  }
+    .ajuda .inferior{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    
+}
+/* pag sobre */
+
+body .sobre{
+  background-color: #87F5E8;
+  width: 100%;
+  height: 100vh;
+}
+
+.sobre h1.proposito{
+  font-size: x-large;
+  font-weight: 500;
+}
+
+.sobre .inferior{
+  margin-top: 6vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.sobre .colab{
+  background-color: #FBFBFB;
+  margin-right: 200px;
+  width: 600px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.sobre .colab nav{
+  width: 50%;
+  color: #000;
+  background-color: #009EE2;
+  border-radius: 10px;
+  align-self: center;
+  margin-top: 100px;
+
+}
+.sobre .colab a{
+  margin-right: 0px;
+  font-weight: 900;
+}
+.sobre .colab a:hover{
+  color: #FBFBFB;
+}
+.sobre .historia{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 11rem;
+}
+.sobre .historia img {
+
+width: 600px;
+height: 300px;
+margin-right: 90px;
+}
+.sobre .historia .botao{
+  margin-top: 10px;
+}
+.sobre .historia .botao a{
+  background-color: #87F5E8;
+  font-weight: bolder;
+  color: #009EE2;
+  border: 2px solid #009EE2;
+}
+.sobre .historia .botao a:hover{
+  color: #FBFBFB;
+}
