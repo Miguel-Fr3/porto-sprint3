@@ -7,7 +7,7 @@ export default function Ajuda (){
         <main className="ajuda">
             <CabecalhoA/>
             <div className="help">
-            <label htmlFor="ajuda">Preencha seus dados de acesso para continuar.</label>
+            <label htmlFor="ajuda">Como podemos te ajudar?</label>
             <input type="text" id="ajuda" placeholder="Pesquise o que você precisa aqui!" />
             </div>
             <div className="superior">
