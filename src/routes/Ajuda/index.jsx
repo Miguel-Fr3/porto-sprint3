@@ -1,3 +1,4 @@
+import "./ajuda.css"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import CabecalhoA from "../../components/CabecalhoA"
 import { faCog, faContactBook, faExclamationTriangle, faMobile, faMoneyBill1Wave, faThumbsUp } from "@fortawesome/free-solid-svg-icons"

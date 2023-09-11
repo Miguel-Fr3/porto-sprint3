@@ -1,0 +1,120 @@
+
+  /* mobile */
+  @media (max-width:599px){
+  
+
+body .modal{
+  background-color: #79A3C9;
+  width: 100%;
+  height: 192vw;
+}
+
+
+.modal section{
+  display: flex;
+  flex-direction: column;
+
+}
+.modal section div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.modal section div img{
+  width: 600px;
+  height: 300px;
+  margin-bottom: 30px;
+  
+}
+  }
+    /* tablet */
+    @media (min-width: 600px) and (max-width:900px){
+  /* pag modals */
+body .modal{
+  background-color: #79A3C9;
+  width: 100%;
+  height: 192vw;
+}
+
+
+.modal section{
+  display: flex;
+  flex-direction: column;
+
+}
+.modal section div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.modal section div img{
+  width: 600px;
+  height: 300px;
+  margin-bottom: 30px;
+  
+}
+ }
+
+ 
+     /* desktop */
+
+     @media (max-width:1399px){
+      body .modal{
+        background-color: #79A3C9;
+        width: 100%;
+        height: 192vw;
+      }
+      
+      
+      .modal section{
+        display: flex;
+        flex-direction: column;
+      
+      }
+      .modal section div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 50px;
+      }
+      .modal section div img{
+        width: 600px;
+        height: 300px;
+        margin-bottom: 30px;
+        
+      }
+      }
+    
+ /* large desktop */
+
+    
+  body .modal{
+  background-color: #79A3C9;
+  width: 100%;
+  height: 192vw;
+}
+
+
+.modal section{
+  display: flex;
+  flex-direction: column;
+
+}
+.modal section div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.modal section div img{
+  width: 600px;
+  height: 300px;
+  margin-bottom: 30px;
+  
+}

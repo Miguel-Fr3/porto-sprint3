@@ -1,3 +1,4 @@
+import "./sobre.css"
 import CabecalhoS from "../../components/CabecalhoS"
 import img0 from "../../assets/img0.png"
 export default function Sobre (){
