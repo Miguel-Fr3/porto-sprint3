@@ -2,8 +2,12 @@
 
 body .login{
   background-color: #BEC5FF;
+  top: 0;
+  left: 0;
   width: 100%;
-  height: 100vh;
+  height: 100vh; 
+  z-index: 999; 
+  overflow: auto; 
 }
  form.formulario{
   min-width: 600px;
@@ -104,8 +108,12 @@ body .login{
   /* login e cadastro */
  body .login{
   background-color: #BEC5FF;
+  top: 0;
+  left: 0;
   width: 100%;
-  height: 100vh;
+  height: 100vh; 
+  z-index: 999; 
+  overflow: auto; 
 }
  form.formulario{
   min-width: 600px;
@@ -206,8 +214,12 @@ body .login{
    /* login e cadastro */
  body .login{
   background-color: #BEC5FF;
+  top: 0;
+  left: 0;
   width: 100%;
-  height: 100vh;
+  height: 100vh; 
+  z-index: 999; 
+  overflow: auto; 
 }
  form.formulario{
   min-width: 600px;
@@ -310,8 +322,12 @@ body .login{
  @media (min-width: 901px) and (max-width:1399px){
   body .login{
     background-color: #BEC5FF;
+    top: 0;
+    left: 0;
     width: 100%;
-    height: 100vh;
+    height: 100vh; 
+    z-index: 999; 
+    overflow: auto; 
   }
    form.formulario{
     min-width: 600px;

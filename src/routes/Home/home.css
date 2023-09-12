@@ -1,8 +1,12 @@
 @media (min-width: 1400px) {
 body .home-page{
   background-color: #BEC5FF;
+  top: 0;
+  left: 0;
   width: 100%;
-  height: 100%;
+  height: 100vh; 
+  z-index: 999; 
+  overflow: auto; 
 }
 
  section{
@@ -75,8 +79,12 @@ font-size: 2rem;
   
    body .home-page{
     background-color: #BEC5FF;
+    top: 0;
+    left: 0;
     width: 100%;
-    height: 100%;
+    height: 100vh; 
+    z-index: 999; 
+    overflow: auto; 
   }
   
 
@@ -123,8 +131,12 @@ p{
 
  body .home-page{
   background-color: #BEC5FF;
+  top: 0;
+  left: 0;
   width: 100%;
-  height: 100%;
+  height: 100vh; 
+  z-index: 999; 
+  overflow: auto; 
 }
 
 
@@ -149,8 +161,12 @@ p{
  @media (min-width: 901px) and (max-width:1399px){
   body .home-page{
     background-color: #BEC5FF;
+    top: 0;
+    left: 0;
     width: 100%;
-    height: 100vh;
+    height: 100vh; 
+    z-index: 999; 
+    overflow: auto; 
   }
   
    section div.superior{
