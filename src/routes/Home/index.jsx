@@ -1,5 +1,4 @@
 import "./home.css"
-import React from 'react';
 import img3 from '../../assets/img3.png';
 import img8 from '../../assets/img8.png';
 import Rodape from '../../components/Rodape';
@@ -14,7 +13,7 @@ export default function Home() {
           <div>
             <h1>Guincho 24 horas</h1>
             <p>
-              Guinchos ilimitados, sem limite de quilometragem. <br />
+               Guinchos ilimitados, sem limite de quilometragem. <br />
               Reparos do carro Reparo rápido e Supermartelinho de Ouro.
             </p>
           </div>
